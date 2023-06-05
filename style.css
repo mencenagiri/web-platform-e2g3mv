@@ -1,0 +1,71 @@
+nav {
+  background: pink;
+}
+
+div.parent {
+  display: grid;
+  grid-template-columns: 200px auto;
+  min-height: 100vh;
+  grid-gap: 20px;
+}
+
+div.child {
+  background: gold;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  border: 5px solid green;
+  padding: 15px;
+  margin: 15px; 
+}
+p {background:red}
+.paraghraph_2 { 
+  background: blue;
+}
+#background_3 {
+  background: green;
+}
+p:nth-child(2) strong {
+  background: pink;
+}
+a {
+ text-decoration: none;
+}
+nav li{
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+nav ul {
+  padding: 0;
+}
+.block-div {
+  background: turquoise;
+  display: block;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.inline-div {
+  display: inline;
+  background-color: purple;
+  color: white;
+  
+}
+#spacing-lesson {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  margin: 30px;
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+}
+.bi { 
+  margin-right: 10px;
+margin-left: 10px 
+}
